@@ -7,7 +7,6 @@ const {
   editNotes,
 } = require("./notes.controller");
 
-yargs.version(pkg.version);
 
 yargs.command({
   command: "add",

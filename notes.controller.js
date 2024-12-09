@@ -2,7 +2,6 @@ const fs = require("fs/promises");
 const path = require("path");
 
 const notesPath = path.join(__dirname, "db.json");
-console.log(notesPath);
 
 async function addNote(title) {
   const notes = await getNotes();
